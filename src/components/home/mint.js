@@ -49,7 +49,7 @@ function MintNFT({ wallet, setWallet, isSoldOut, setIsSoldOut }) {
 
 export default function Mint() {
   const [wallet, setWallet] = useState(null);
-  const [isSoldOut, setIsSoldOut] = useState(true);
+  const [isSoldOut, setIsSoldOut] = useState(false);
 
   return (
     <div
