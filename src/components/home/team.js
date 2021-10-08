@@ -32,16 +32,15 @@ export default function Team() {
   return (
     <div
       style={{
-        backgroundImage: `url(${BackgroundImage})`,
-        // backgroundColor: "rgba(0, 0, 0, 0.2)",
+        backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%), url(${BackgroundImage})`,
       }}
       className="w-screen h-max bg-cover flex flex-col items-center"
     >
-      <h1 className="mx-20 mt-10 lg:mt-40 md:mt-32 text-white red-text-shadow modius text-5xl md:text-6xl text-center">
+      <h1 className="mx-20 mt-10 lg:mt-40 md:mt-32 text-white red-text-shadow modius text-5xl md:text-7xl text-center">
         MEET THE TEAM
       </h1>
 
-      <div className="my-24 mx-10 lg:my-36 lg:mt-48 flex flex-col lg:flex-row gap-y-24 lg:gap-x-14">
+      <div className="my-24 mx-10 lg:my-36 lg:mt-48 flex flex-col xl:flex-row gap-y-24 lg:gap-x-14">
         {team.map((member, key) => {
           return (
             <div className="flex flex-col items-center mx-5" key={key}>
