@@ -1,7 +1,7 @@
 import React from "react";
-import DaopunkAnon1 from "../../assets/images/daopunk-anon-1.png";
-import DaopunkAnon2 from "../../assets/images/daopunk-anon-2.png";
-import DaopunkAnon3 from "../../assets/images/daopunk-anon-3.png";
+import DaopunkAnon1 from "../../assets/images/nfts/daopunk-anon-1.png";
+import DaopunkAnon2 from "../../assets/images/nfts/daopunk-anon-2.png";
+import DaopunkAnon3 from "../../assets/images/nfts/daopunk-anon-3.png";
 
 export default function DaoPunks({ showMore, setShowMore }) {
   const daopunks = !showMore

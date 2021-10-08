@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
-import BackgroundImage from "../../assets/images/mint-background.png";
+import BackgroundImage from "../../assets/images/backgrounds/mint-background.png";
 
 function MintNFT({ wallet, setWallet, isSoldOut, setIsSoldOut }) {
   useEffect(() => {
@@ -24,7 +24,7 @@ function MintNFT({ wallet, setWallet, isSoldOut, setIsSoldOut }) {
       {wallet === null && !isSoldOut ? (
         <button
           onClick={walletConnect}
-          className="mt-28 px-3 sm:px-10 mx-5 py-5 rounded bg-white modius text-base sm:text-xl leading-snug text-black outline-none"
+          className="mt-16 sm:mt-28 px-3 sm:px-10 mx-5 py-5 rounded bg-white modius text-base sm:text-xl leading-snug text-black outline-none"
         >
           CONNECT YOUR WALLET
         </button>
@@ -56,8 +56,8 @@ export default function Mint() {
       style={{ backgroundImage: `url(${BackgroundImage})` }}
       className="w-screen h-screen bg-cover flex flex-col items-center justify-center"
     >
-      <h1 className="max-w-screen-xl mx-3 sm:mx-10 text-white text-4xl sm:text-6xl lg:text-7xl leading-normal md:leading-snug lg:leading-snug modius red-text-shadow text-center">
-        I WANT TO BE PART OF THE <br /> DAOPUNK CULTURE
+      <h1 className="max-w-6xl mx-3 sm:mx-10 text-white text-4xl sm:text-6xl lg:text-7xl leading-normal md:leading-snug lg:leading-snug modius red-text-shadow text-center">
+        I WANT TO BECOME A DAOPUNK
       </h1>
 
       <MintNFT

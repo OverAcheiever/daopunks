@@ -2,6 +2,7 @@ import React from "react";
 import Culture from "../components/home/culture";
 import Hero from "../components/home/hero";
 import Mint from "../components/home/mint";
+import Team from "../components/home/team";
 import Footer from "../components/home/footer";
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <Culture />
       <Mint />
+      <Team />
       <Footer />
     </>
   );
