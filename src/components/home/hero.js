@@ -1,7 +1,7 @@
 import React from "react";
 import abstractBackground from "../../assets/images/hero-background.png";
-import Logo from "../../assets/images/logo.png";
-import HamburgerIcon from "../../assets/images/hamburger-icon.png"
+// import Logo from "../../assets/images/logo.png";
+// import HamburgerIcon from "../../assets/images/hamburger-icon.png"
 export default function Hero() {
   return (
     <div
