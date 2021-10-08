@@ -31,6 +31,7 @@ const team = [
 export default function Team() {
   return (
     <div
+      id="team"
       style={{
         backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%), url(${BackgroundImage})`,
       }}

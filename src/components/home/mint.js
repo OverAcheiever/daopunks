@@ -20,7 +20,7 @@ function MintNFT({ wallet, setWallet, isSoldOut, setIsSoldOut }) {
   }
 
   return (
-    <>
+    <div>
       {wallet === null && !isSoldOut ? (
         <button
           onClick={walletConnect}
@@ -43,7 +43,7 @@ function MintNFT({ wallet, setWallet, isSoldOut, setIsSoldOut }) {
           SOLD OUT
         </div>
       )}
-    </>
+    </div>
   );
 }
 
@@ -53,6 +53,7 @@ export default function Mint() {
 
   return (
     <div
+      id="mint"
       style={{ backgroundImage: `url(${BackgroundImage})` }}
       className="w-screen h-screen bg-cover flex flex-col items-center justify-center"
     >

@@ -7,7 +7,7 @@ export default function Sidebar({ setShowSidebar }) {
   return (
     <div
       style={{
-        // backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%), url(${BackgroundImage})`,
+        backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%), url(${BackgroundImage})`,
       }}
       className="absolute w-screen h-screen bg-cover"
     >

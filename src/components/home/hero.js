@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import BackgroundImage from "../../assets/images/backgrounds/hero-background.png";
 import Logo from "../../assets/images/hero/logo.png";
@@ -12,6 +13,7 @@ export default function Hero() {
 
   return (
     <div
+      id="#"
       style={{
         backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%), url(${BackgroundImage})`,
       }}
@@ -26,7 +28,11 @@ export default function Hero() {
         >
           <img className="w-10" src={HamburgerIcon} alt="" />
         </div>
-        <div className="hidden xl:block modius text-white text-lg">About  /  Mint  /  Roadmap  /  Team  /  Contact</div>
+        <div className="hidden xl:block modius text-white text-lg">
+          <a href="#">About</a> / <a href="#mint">Mint</a> /
+          <a href="#roadmap"> Roadmap</a> / <a href="#team">Team</a> /
+          <a href="#contact"> Contact</a>
+        </div>
         <div className="hidden md:flex -mt-1 items-center justify-center gap-x-10">
           <div className="flex gap-x-6">
             <img src={Twitter} alt="" />
