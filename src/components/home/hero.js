@@ -19,7 +19,7 @@ export default function Hero() {
     >
       {showSidebar ? <Sidebar setShowSidebar={setShowSidebar} /> : null}
       <div className="w-full p-8 sm:p-10 lg:p-14 flex items-center justify-between">
-        <img className="w-32 lg:w-40" src={Logo} alt="" />
+        <img className="w-32 md:w-36 lg:w-40" src={Logo} alt="" />
         <div
           onClick={() => setShowSidebar(!showSidebar)}
           className="block md:hidden w-10 h-10 -mt-3 mr-1 outline flex items-center justify-center"

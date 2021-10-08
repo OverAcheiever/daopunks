@@ -7,14 +7,14 @@ export default function Sidebar({ setShowSidebar }) {
   return (
     <div
       style={{
-        backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%), url(${BackgroundImage})`,
+        // backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%), url(${BackgroundImage})`,
       }}
       className="absolute w-screen h-screen bg-cover"
     >
       <div className="w-full p-8 flex items-center justify-end">
         <div
           onClick={() => setShowSidebar(false)}
-          className="w-10 h-10 mt-3 mr-2 outline flex items-center justify-end"
+          className="w-10 h-10 mt-3.5 mr-2 outline flex items-center justify-end"
         >
           <img className="w-10" src={Cross} alt="" />
         </div>
