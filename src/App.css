@@ -20,15 +20,43 @@ html {
     font-weight: 900;
 }
 
+@font-face {
+    font-family: "Violence";
+    src: url("./assets/fonts/Violence.woff");
+}
+
+.violence {
+    font-family: "Violence";
+    font-weight: 900;
+}
+
 .ibm-plex {
     font-family: "IBM Plex Sans";
     font-weight: 500;
 }
 
 .red {
+    background: rgb(255, 0, 0);
+}
+
+.text-red {
     color: rgb(255, 0, 0);
 }
 
 .red-text-shadow {
     text-shadow: 0.3rem 0.3rem rgb(255, 0, 0);
+}
+
+.white-text-shadow {
+    text-shadow: 0.3rem 0.3rem rgb(255, 255, 255);
+}
+
+.input {
+    width: "15rem" !important;
+}
+
+@media (min-width: 640px) {
+    input {
+        width: "22rem" !important;
+    }
 }

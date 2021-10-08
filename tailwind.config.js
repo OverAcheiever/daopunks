@@ -1,16 +1,11 @@
 module.exports = {
-  important: true,
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
   theme: {
-    // extend: {
-    //   lineHeight: {
-    //     12: "7rem",
-    //   },
-    // },
+    extend: {
+      spacing: {
+        66: '15rem',
+      },
+    },
   },
-  variants: {
-    extend: {},
-  },
+  variants: {},
   plugins: [],
-};
+}
