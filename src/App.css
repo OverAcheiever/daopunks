@@ -69,6 +69,11 @@ html {
     color: rgb(255, 0, 0);
 }
 
+.text-hover-red:hover {
+    color: rgb(255, 0, 0);
+    transition: all 0.2s;
+}
+
 .red-text-shadow {
     text-shadow: 0.3rem 0.3rem rgb(255, 0, 0);
 }
