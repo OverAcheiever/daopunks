@@ -26,7 +26,7 @@ export default function DaoPunks({ showMore, setShowMore }) {
         })}
       </div>
       <button
-        className="px-10 py-5 mt-10 md:mt-24 mb-24 md:mb-44 modius text-red text-lg outline-none hover:bg-gray-50 transition-all rounded-lg"
+        className="px-10 py-5 mt-10 md:mt-24 mb-24 md:mb-44 modius-bold text-red text-lg outline-none hover:bg-gray-50 transition-all rounded-lg"
         onClick={() => setShowMore(!showMore)}
       >
         {!showMore ? "SHOW MORE" : "SHOW LESS"}

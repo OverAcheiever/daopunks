@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import BackgroundImage from "../../assets/images/backgrounds/hero-background.png";
 import Cross from "../../assets/images/hero/close.png";
@@ -9,7 +11,7 @@ export default function Sidebar({ setShowSidebar }) {
       style={{
         backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%), url(${BackgroundImage})`,
       }}
-      className="absolute w-screen h-screen bg-cover"
+      className="absolute z-50 w-screen h-screen bg-cover"
     >
       <div className="w-full p-8 flex items-center justify-end">
         <div
@@ -21,17 +23,23 @@ export default function Sidebar({ setShowSidebar }) {
       </div>
 
       <div className="absolute left-0 bottom-0 pl-8 pb-20 flex flex-col gap-y-10">
-        <div className="flex flex-col gap-y-5 text-white modius text-2xl">
-          <div>ABOUT</div>
-          <div>MINT</div>
-          <div>ROADMAP</div>
-          <div>TEAM</div>
-          <div>MY DAO PUNKS</div>
-          <div>CONTACT</div>
+        <div className="flex flex-col gap-y-5 text-white modius-bold text-2xl">
+          <a href="#about">ABOUT</a>
+          <a href="#mint">MINT</a>
+          <a href="#roadmap">ROADMAP</a>
+          <a href="#team">TEAM</a>
+          <a href="">MY DAO PUNKS</a>
+          <a href="https://twitter.com/DAOpunksNFT" target="_blank">
+            CONTACT
+          </a>
         </div>
         <div className="flex gap-x-8">
-          <img src={Twitter} alt="" />
-          <img src={Discord} alt="" />
+          <a href="https://twitter.com/DAOpunksNFT" target="_blank">
+            <img src={Twitter} alt="" />
+          </a>
+          <a href="https://t.co/sbisMPDiJy?amp=1" target="_blank">
+            <img src={Discord} alt="" />
+          </a>
         </div>
       </div>
     </div>

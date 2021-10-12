@@ -1,30 +1,34 @@
 import React from "react";
 import BackgroundImage from "../../assets/images/backgrounds/team-background.png";
-import TeamMember from "../../assets/images/team/team-member.png";
+import CryptoBushi from "../../assets/images/team/crypto-bushi.png";
+import Sinjun from "../../assets/images/team/sinjun.png";
+import Bankless from "../../assets/images/team/bankless.png";
+import Floc from "../../assets/images/team/floc.png";
+
 const team = [
   {
-    image: TeamMember,
+    image: CryptoBushi,
     name: "CRYPTO BUSHI",
-    description:
-      "In 1977, the influence of the music and subculture spread worldwide",
+    title: "ARTIST",
+    twitterHandle: "@thecryptobushi",
   },
   {
-    image: TeamMember,
+    image: Sinjun,
     name: "SINJUN",
-    description:
-      "In 1977, the influence of the music and subculture spread worldwide",
+    title: "FASHION",
+    twitterHandle: "@SinjunART",
   },
   {
-    image: TeamMember,
+    image: Bankless,
     name: "BANKLESS DAO",
-    description:
-      "In 1977, the influence of the music and subculture spread worldwide",
+    title: "PARTNER",
+    twitterHandle: "@thecryptobushi",
   },
   {
-    image: TeamMember,
-    name: "FLOC",
-    description:
-      "In 1977, the influence of the music and subculture spread worldwide",
+    image: Floc,
+    name: "FLOC*",
+    title: "DESIGN",
+    twitterHandle: "@thecryptobushi",
   },
 ];
 
@@ -37,26 +41,29 @@ export default function Team() {
       }}
       className="w-screen h-max bg-cover flex flex-col items-center"
     >
-      <h1 className="mx-20 mt-10 lg:mt-40 md:mt-32 text-white red-text-shadow modius text-5xl md:text-7xl text-center">
+      <h1 className="mx-20 mt-10 lg:mt-40 md:mt-32 text-white red-text-shadow modius-bold text-5xl md:text-7xl text-center">
         MEET THE TEAM
       </h1>
 
-      <div className="my-24 mx-10 lg:my-36 lg:mt-48 flex flex-col xl:flex-row gap-y-24 lg:gap-x-14">
+      <div className="my-24 mx-10 lg:my-36 lg:mt-48 flex flex-col xl:flex-row gap-y-10 ">
         {team.map((member, key) => {
           return (
             <div className="flex flex-col items-center mx-5" key={key}>
-              <img src={member.image} className="rounded-full" alt="" />
+              <img src={member.image} alt="" />
+              <div className="mt-8 open-sans-bold text-lg text-white text-center">
+                {member.title}
+              </div>
               <div
                 style={{ maxWidth: "15rem" }}
-                className="mt-24 modius text-3xl text-white text-center"
+                className="modius-bold text-3xl text-white text-center"
               >
                 {member.name}
               </div>
               <div
                 style={{ maxWidth: "15rem" }}
-                className="mt-6 max-w-xs open-sans text-1xl text-white text-center"
+                className="mt-6 max-w-xs open-sans text-xl text-white text-center"
               >
-                {member.description}
+                {member.twitterHandle}
               </div>
             </div>
           );

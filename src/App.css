@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -14,12 +14,21 @@ html {
 
 @font-face {
     font-family: "Modius";
-    src: url("./assets/fonts/Modius-Bold.woff");
+    src: url("./assets/fonts/Modius.woff");
 }
 
 .modius {
     font-family: "Modius";
-    font-weight: 900;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Modius Bold";
+    src: url("./assets/fonts/Modius-Bold.woff");
+}
+
+.modius-bold {
+    font-family: "Modius Bold";
 }
 
 @font-face {
@@ -32,8 +41,19 @@ html {
     font-weight: 900;
 }
 
+.open-sans-light {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
 .open-sans {
     font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.open-sans-bold {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
 }
 
 .ibm-plex {

@@ -1,11 +1,9 @@
 module.exports = {
   theme: {
-    extend: {
-      spacing: {
-        66: '15rem',
-      },
+    maxHeight: {
+      120: "30rem"
     },
   },
   variants: {},
   plugins: [],
-}
+};
