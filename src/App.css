@@ -86,3 +86,9 @@ html {
         width: "22rem" !important;
     }
 }
+
+@media (min-width: 1280px) {
+    .max-h-38 {
+        max-height: 38rem;
+    }
+}

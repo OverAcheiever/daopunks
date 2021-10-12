@@ -59,7 +59,7 @@ export default function Hero() {
               backgroundImage: `url(${HeroImage})`,
               backgroundSize: "auto 90%",
             }}
-            className="w-full xl:max-w-sm h-full bg-no-repeat bg-center bg-contain"
+            className="w-full xl:max-w-sm xl:-mt-16 max-h-38 h-full bg-no-repeat bg-center bg-contain"
           >
             <div className="block xl:hidden w-full h-full flex flex-col xl:flex-row items-center justify-end md:justify-center text-center text-white px-5 pb-10 sm:pb-20">
               <div className="md:max-w-xl">
