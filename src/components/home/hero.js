@@ -30,24 +30,23 @@ export default function Hero() {
         >
           <img className="w-10" src={HamburgerIcon} alt="" />
         </div>
-        <div className="hidden xl:block modius-bold text-white text-lg">
+        <div className="hidden xl:flex modius-bold text-white text-lg gap-x-2 2xl:gap-x-6">
           <a to="#about" href="#about" className="text-hover-red">
-            About 
+            About
           </a>
-          /{" "}
+          /
           <a href="#mint" className="text-hover-red">
             Mint
-          </a>{" "}
+          </a>
           /
           <a href="#roadmap" className="text-hover-red">
-            {" "}
             Roadmap
-          </a>{" "}
-          / 
+          </a>
+          /
           <a href="#team" className="text-hover-red">
             Team
-          </a>{" "}
-          / 
+          </a>
+          /
           <a
             href="https://twitter.com/DAOpunksNFT"
             target="_blank"
