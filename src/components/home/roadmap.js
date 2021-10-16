@@ -35,16 +35,16 @@ export default function Roadmap() {
             <img className="w-60" src={Image2} alt="" />
             <div>
               <div className="mt-5 modius-bold text-red text-2xl">
-                Claim your shirt printed with your exact NFT andunique
+                Claim your shirt printed with your exact NFT and unique
                 identifiers
               </div>
               <div className="mt-3 open-sans-light text-md">
                 Each DAOpunk NFT minted from the Phase 1 public sale will be
-                entitled to a limited edition tee from MetaFactory DAO. The
-                physical tee will feature your DAOpunk JPEG along with metadata
-                and QR code for proof of ownership IRL. These unique identifiers
-                will actually be in the print design on the shirt itself! The
-                claim window will be announced sometime after the primary sale.
+                entitled to a limited edition tee. The physical tee will feature
+                your DAOpunk JPEG along with metadata and QR code for proof of
+                ownership IRL. These unique identifiers will actually be in the
+                print design on the shirt itself! The claim window will be
+                announced sometime after the primary sale.
               </div>
               <img className="hidden xl:block" src={Shirts} alt="" />
               <img className="block xl:hidden" src={Shirt1} alt="" />
@@ -58,9 +58,7 @@ export default function Roadmap() {
                 Free humans from soul-sucking work! DAOpunks “public goods”
                 grant initiated. Bridge from default jobs to full-time DAO work
               </div>
-              <div
-                className="mt-3 open-sans-light text-md"
-              >
+              <div className="mt-3 open-sans-light text-md">
                 We have received some amazing suggestions from the community on
                 future projects and perks for DAOpunks token holders. In an
                 effort to kickstart these projects, we will be allocating 25% of
@@ -110,8 +108,7 @@ export default function Roadmap() {
               </div>
               <div className="mt-3 open-sans-light text-md">
                 Featuring limited edition tees, hoodies, metaverse wearables,
-                and other goodies to spread our DAOculture IRL. Metafactory DAO
-                will produce some of our limited-edition drops. If you look
+                and other goodies to spread our DAOculture IRL. If you look
                 closely at the DAOpunks you will see many possible future merch
                 items. Which one will we choose? Join us and add your voice.
               </div>

@@ -11,24 +11,28 @@ const team = [
     name: "CRYPTO BUSHI",
     title: "ARTIST",
     twitterHandle: "@thecryptobushi",
+    twitterURL: "https://twitter.com/thecryptobushi",
   },
   {
     image: Sinjun,
     name: "SINJUN",
     title: "FASHION",
     twitterHandle: "@SinjunART",
+    twitterURL: "https://twitter.com/SinjunART",
   },
   {
     image: Bankless,
     name: "BANKLESS DAO",
     title: "PARTNER",
     twitterHandle: "@thecryptobushi",
+    twitterURL: "https://twitter.com/banklessDAO",
   },
   {
     image: Floc,
     name: "FLOC*",
     title: "DESIGN",
-    twitterHandle: "@thecryptobushi",
+    twitterHandle: "@wearefloc",
+    twitterURL: "https://twitter.com/wearefloc",
   },
 ];
 
@@ -59,12 +63,14 @@ export default function Team() {
               >
                 {member.name}
               </div>
-              <div
+              <a
                 style={{ maxWidth: "15rem" }}
                 className="mt-6 max-w-xs open-sans text-xl text-white text-center"
+                href={member.twitterURL}
+                target="_blank" rel="noreferrer"
               >
                 {member.twitterHandle}
-              </div>
+              </a>
             </div>
           );
         })}
