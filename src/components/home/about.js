@@ -13,15 +13,14 @@ export default function Culture() {
       <h1 className="modius-bold md:leading-tight max-w-5xl text-red mx-10 text-center text-3xl md:text-7xl">
         CORPORATE PUNK TO DAOPUNK
       </h1>
-      <p className="w-11/12 mx-10 max-w-5xl mt-5 sm:mt-10 ibm-plex text-base md:text-xl text-center">
-        Our mission is to help free all humans from the soul-sucking drudgery of
-        default world work to the rewarding expansive freedom found in
-        meaningful DAO work.
-        <br />
-        <br />
-        We blaze new trails for others to follow to fertile promised lands where
-        they find opportunity, meaningful work, community, and untold abundance.
-        We build the bridges. We blaze the trails. With open minds and arms, we
+      <p className="w-11/12 mx-10 max-w-4xl mt-5 sm:mt-10 ibm-plex text-base md:text-xl text-center">
+        DAOpunks’s mission is to enable humans to liberate themselves from the
+        soul-sucking drudgery of default world work and lead them to the
+        rewarding, expansive freedom found in meaningful DAO work.
+        <br /> <br />
+        DAOpunks blaze new trails, leading others to fertile promised lands,
+        where they find opportunity, meaningful work, community, and untold
+        abundance. We build the bridges. We blaze the trails. With openness, we
         invite others to join us. Together we go further. A better world awaits.
         DAOpunks lead the way.
       </p>

@@ -24,7 +24,7 @@ const team = [
     image: Bankless,
     name: "BANKLESS DAO",
     title: "PARTNER",
-    twitterHandle: "@thecryptobushi",
+    twitterHandle: "@banklessDAO",
     twitterURL: "https://twitter.com/banklessDAO",
   },
   {

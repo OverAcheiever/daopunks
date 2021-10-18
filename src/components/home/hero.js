@@ -82,10 +82,11 @@ export default function Hero() {
             <div className="block xl:hidden w-full h-full flex flex-col xl:flex-row items-center justify-end md:justify-center text-center text-white px-5 pb-10 sm:pb-20">
               <div className="md:max-w-xl">
                 <div className="modius-bold text-4xl sm:text-6xl md:text-5xl">
-                  We BLAZE TRAILS. WE BUILD BRIDGES.
+                  We BLAZE TRAILS. <br />
+                  WE BUILD BRIDGES.
                 </div>
                 <div className="modius text-2xl sm:text-3xl px-5 sm:px-10">
-                  A BETTER WORLD AWAITS DAO PUNKS LEAD THE WAY
+                  A BETTER WORLD AWAITS DAOPUNKS LEAD THE WAY
                 </div>
               </div>
             </div>
@@ -93,7 +94,7 @@ export default function Hero() {
           <div className="hidden xl:flex w-full h-full flex-col justify-center text-left text-white px-5 pb-10 sm:pb-20">
             <div className="md:max-w-xl">
               <div className="modius-bold text-6xl">
-                We BLAZE TRAILS. WE BUILD BRIDGES.
+                We BLAZE TRAILS. <br /> WE BUILD BRIDGES.
               </div>
               <div className="modius text-5xl">
                 A BETTER WORLD AWAITS DAO PUNKS LEAD THE WAY

@@ -25,9 +25,8 @@ export default function Roadmap() {
                 MINT YOUR DAOPUNK
               </div>
               <div className="mt-3 open-sans-light text-md">
-                Public mint. DAOPunks will be available to mint in early
-                October. Date TBD. Each of these DAOPunks will be unique and
-                have generative traits.
+                Public mint. DAOPunks will be available to mint in October. Each
+                of these DAOPunks will be unique and have generative traits.
               </div>
             </div>
           </div>
@@ -44,7 +43,7 @@ export default function Roadmap() {
                 your DAOpunk JPEG along with metadata and QR code for proof of
                 ownership IRL. These unique identifiers will actually be in the
                 print design on the shirt itself! The claim window will be
-                announced sometime after the primary sale.
+                announced after the public mint.
               </div>
               <img className="hidden xl:block" src={Shirts} alt="" />
               <img className="block xl:hidden" src={Shirt1} alt="" />
@@ -62,16 +61,16 @@ export default function Roadmap() {
                 We have received some amazing suggestions from the community on
                 future projects and perks for DAOpunks token holders. In an
                 effort to kickstart these projects, we will be allocating 25% of
-                the primary sale to the DAOpunks community treasury. The
-                DAOpunks treasury will be used primarily to fund community voted
-                projects that have the ideals of growing and supporting the
-                overall DAO ecosystem and the people behind them. These ideas
-                revolve around providing a “public goods” style grant that will
-                fund people who want to move from a traditional job into full
-                time DAO work. From CORPORATEpunk to DAOpunk. Think Tradcorp
-                off-ramp, DAO on ramp. 50% of all secondary sales revenue will
-                be allocated to the DAOpunk treasury to continue funding these
-                initiatives.
+                the public sale to the DAOpunks public treasury. The DAOpunks
+                public treasury will be primarily used to fund
+                community-approved projects that have the ideals of growing and
+                supporting the overall DAO ecosystem and the people behind it.
+                These ideas revolve around providing a “public goods” style
+                grant that will provide funds to people who want to move from a
+                traditional job into full time DAO work. From CORPORATEpunk to
+                DAOpunk. Think Tradcorp off-ramp, DAO-life on ramp. 50% of all
+                secondary sales revenue will be allocated to the DAOpunks public
+                treasury to continue funding these initiatives.
               </div>
             </div>
           </div>
@@ -83,19 +82,18 @@ export default function Roadmap() {
               </div>
               <div className="mt-3 open-sans-light text-md">
                 After the success of our DAOpunks NFT-Merch launch, we will
-                launch How To DAO. This will be a large-scale collaboration
-                between over 50 DAOs, the likes of which the world has never
-                seen before. An artist will be chosen from each DAO to create a
-                piece of artwork that plays with the DAOpunk ethos and stays
-                true to their DAO. With the assistance of Metafactory DAO, we
-                will open up the innovative printing technology to other DAOs
-                that allows for unique 1/1 NFT information on each garment. Each
-                piece of artwork will be sold as an NFT and redeemable for a
-                free merch item that contains the exact NFT and unique
-                identifiers. 50% of sales will go towards the DAOpunks treasury
-                and funding public goods grants and projects that will help
-                bring more people into thriving full-time DAO work. Our
-                ecosystem will grow stronger and healthier because of our
+                launch How To DAO. How To DAO will be a large-scale
+                collaboration between 50+ DAOs, the likes of which the world has
+                never before seen. An artist will be chosen from each DAO to
+                create a piece of artwork that plays with the DAOpunks ethos and
+                stays true to their DAO. DAOpunks will share our innovative
+                printing technology with other DAOs, allowing each artwork
+                created by the DAO artists to be sold as an NFT and be coupled
+                with a redeemable merch item that contains the exact NFT and
+                unique identifiers. Sales revenue will flow into the DAOpunks
+                public treasury to fund public-goods grants and projects that
+                will help bring more people into thriving full-time DAO work.
+                Our ecosystem will grow stronger and healthier because of our
                 contributions.
               </div>
             </div>
@@ -109,7 +107,7 @@ export default function Roadmap() {
               <div className="mt-3 open-sans-light text-md">
                 Featuring limited edition tees, hoodies, metaverse wearables,
                 and other goodies to spread our DAOculture IRL. If you look
-                closely at the DAOpunks you will see many possible future merch
+                closely at the DAOpunks, you will see many possible future merch
                 items. Which one will we choose? Join us and add your voice.
               </div>
             </div>
@@ -133,7 +131,7 @@ export default function Roadmap() {
             <div>
               <div className="mt-5 modius-bold text-red text-2xl">
                 All humans are freed! Free from default world drudgery.
-                Full-time DAO destiny for all those that desire it{" "}
+                Full-time DAO destiny for all those who desire it
               </div>
               <div className="mt-3 open-sans-light text-md">
                 All humans are freed from the drudgery of mindless, soul-sucking

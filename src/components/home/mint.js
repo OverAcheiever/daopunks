@@ -57,8 +57,8 @@ export default function Mint() {
       style={{ backgroundImage: `url(${BackgroundImage})` }}
       className="w-screen h-screen bg-cover flex flex-col items-center justify-center"
     >
-      <h1 className="max-w-6xl mx-3 sm:mx-10 text-white text-4xl sm:text-6xl lg:text-7xl leading-normal md:leading-snug lg:leading-snug modius-bold red-text-shadow text-center">
-        I WANT TO BECOME A DAOPUNK
+      <h1 className="max-w-4xl mx-3 sm:mx-10 text-white text-4xl sm:text-6xl lg:text-7xl leading-normal md:leading-snug lg:leading-snug modius-bold red-text-shadow text-center">
+        BE A PIONEER. BLAZE TRAILS WITH US
       </h1>
 
       <MintNFT
