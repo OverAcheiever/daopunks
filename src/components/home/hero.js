@@ -97,7 +97,7 @@ export default function Hero() {
                 We BLAZE TRAILS. <br /> WE BUILD BRIDGES.
               </div>
               <div className="modius text-5xl">
-                A BETTER WORLD AWAITS DAO PUNKS LEAD THE WAY
+                A BETTER WORLD AWAITS DAOPUNKS LEAD THE WAY
               </div>
             </div>
             <button className="hidden md:block w-max px-10 mt-5 py-5 rounded red text-white modius-bold text-xl leading-snug text-black outline-none">
