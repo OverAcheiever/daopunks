@@ -52,7 +52,10 @@ export default function Team() {
       <div className="my-24 mx-10 lg:my-36 lg:mt-48 flex flex-col xl:flex-row gap-y-10 ">
         {team.map((member, key) => {
           return (
-            <div className="flex flex-col items-center mx-5" key={key}>
+            <div
+              className="w-11/12 sm:max-w-sm xl:w-60 2xl:w-72 flex flex-col items-center mx-5"
+              key={key}
+            >
               <img src={member.image} alt="" />
               <div className="mt-8 open-sans-bold text-lg text-white text-center">
                 {member.title}
@@ -67,7 +70,8 @@ export default function Team() {
                 style={{ maxWidth: "15rem" }}
                 className="mt-6 max-w-xs open-sans text-xl text-white text-center"
                 href={member.twitterURL}
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
               >
                 {member.twitterHandle}
               </a>

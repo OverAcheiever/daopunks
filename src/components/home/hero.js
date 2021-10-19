@@ -100,9 +100,12 @@ export default function Hero() {
                 A BETTER WORLD AWAITS DAOPUNKS LEAD THE WAY
               </div>
             </div>
-            <button className="hidden md:block w-max px-10 mt-5 py-5 rounded red text-white modius-bold text-xl leading-snug text-black outline-none">
+            <a
+              href="#mint"
+              className="hidden md:block w-max px-10 mt-5 py-5 rounded red text-white modius-bold text-xl leading-snug text-black outline-none cursor-pointer"
+            >
               MINT A DAOPUNK
-            </button>
+            </a>
           </div>
           <button className="block xl:hidden w-2/3 sm:w-max px-3 sm:px-10 mx-5 py-5 mb-10 rounded bg-white modius-bold text-sm sm:text-xl leading-snug text-black outline-none">
             CONNECT YOUR WALLET
