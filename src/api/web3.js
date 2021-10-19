@@ -11,7 +11,7 @@ const providerOptions = {
 };
 
 const web3Modal = new Web3Modal({
-  network: "mainnet", // optional
+  network: "rinkeby", // optional
   cacheProvider: true, // optional
   providerOptions, // required
 });
