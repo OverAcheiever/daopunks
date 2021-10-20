@@ -1,15 +1,15 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from "react";
-import BackgroundImage from "../../assets/images/backgrounds/mint-background.png";
+import BackgroundImage from "../../../assets/images/backgrounds/mint-background.png";
 
-import { walletconnect, mint, nftCollection } from "../../api/web3";
+import { walletconnect, mint, nftCollection } from "../../../api/web3";
+
+import TransactionStatus from "./transaction-status";
 
 function MintNFT({ wallet, setWallet, isSoldOut, setIsSoldOut }) {
   const [nftAmount, setnftAmount] = useState(1);
-
-  if (wallet !== null) {
-    nftCollection(wallet);
-  }
+  const [transactionStatus, settransactionStatus] = useState(null);
+  const [transactionHash, settransactionHash] = useState(null);
 
   useEffect(() => {
     (async () => {
@@ -19,7 +19,16 @@ function MintNFT({ wallet, setWallet, isSoldOut, setIsSoldOut }) {
   }, [setIsSoldOut]);
 
   return (
-    <div>
+    <>
+      {transactionStatus !== null ? (
+        <TransactionStatus
+          transactionStatus={transactionStatus}
+          transactionHash={transactionHash}
+          wallet={wallet}
+          nftAmount={nftAmount}
+        />
+      ) : null}
+
       {wallet === null && !isSoldOut ? (
         <button
           onClick={() => walletconnect(setWallet)}
@@ -36,7 +45,9 @@ function MintNFT({ wallet, setWallet, isSoldOut, setIsSoldOut }) {
             onInput={(e) => setnftAmount(e.target.value)}
           />
           <button
-            onClick={() => mint(wallet, nftAmount)}
+            onClick={() =>
+              mint(wallet, nftAmount, settransactionStatus, settransactionHash)
+            }
             className="w-max mt-3 px-3 sm:px-7 mx-5 py-5 rounded red text-white modius-bold text-base sm:text-xl leading-snug text-black outline-none"
           >
             MINT A DAOPUNK
@@ -47,7 +58,7 @@ function MintNFT({ wallet, setWallet, isSoldOut, setIsSoldOut }) {
           SOLD OUT
         </div>
       )}
-    </div>
+    </>
   );
 }
 
@@ -61,7 +72,7 @@ export default function Mint() {
       style={{ backgroundImage: `url(${BackgroundImage})` }}
       className="w-screen h-screen bg-cover flex flex-col items-center justify-center"
     >
-      <h1 className="max-w-4xl mx-3 sm:mx-10 text-white text-4xl sm:text-6xl lg:text-7xl leading-normal md:leading-snug lg:leading-snug modius-bold red-text-shadow text-center">
+      <h1 className="max-w-4xl px-3 sm:px-10 text-white text-4xl sm:text-5xl lg:text-7xl leading-normal md:leading-snug lg:leading-snug modius-bold red-text-shadow text-center">
         BE A PIONEER. BLAZE TRAILS WITH US
       </h1>
 

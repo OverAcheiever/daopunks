@@ -1,6 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
 import BackgroundImage from "../../assets/images/backgrounds/hero-background.png";
 import Cross from "../../assets/images/hero/close.png";
 import Twitter from "../../assets/images/sidebar/twitter.png";

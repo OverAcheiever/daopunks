@@ -1,4 +1,3 @@
-import React from "react";
 import BackgroundImage from "../../assets/images/backgrounds/team-background.png";
 import CryptoBushi from "../../assets/images/team/crypto-bushi.png";
 import Sinjun from "../../assets/images/team/sinjun.png";
