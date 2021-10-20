@@ -64,9 +64,9 @@ export default function Hero() {
               <img src={Discord} alt="" />
             </a>
           </div>
-          <button className="px-3 sm:px-7 py-5 rounded bg-black text-white modius-bold text-base sm:text-xl leading-snug text-black outline-none">
+          <a href="#mint" className="px-3 sm:px-7 py-5 rounded bg-black text-white modius-bold text-base sm:text-xl leading-snug text-black outline-none">
             CONNECT
-          </button>
+          </a>
         </div>
       </div>
 
