@@ -14,7 +14,7 @@ export default function TransactionStatus({
 
       <div className="absolute flex items-center justify-center">
         <div
-          className={`w-11/12 sm:max-w-sm md:w-max sm:px-10 md:max-w-sm xl:max-w-xl xl:py-10 ${
+          className={`w-11/12 sm:max-w-sm md:w-max md:max-w-md xl:max-w-2xl xl:py-10 ${
             transactionStatus === "pendingApproval" ||
             transactionStatus === "pending"
               ? "bg-white"
@@ -33,7 +33,7 @@ export default function TransactionStatus({
               ? "PLEASE CONFIRM THE TRANSACTION"
               : transactionStatus === "pending"
               ? "YOUR TRANSACTION IS PENDING"
-              : "MINTING SUCESSFUL!"}
+              : transactionStatus === "completed"? "MINTING SUCESSFUL!" : "MINTING FAILED"}
           </div>
 
           <div
@@ -42,7 +42,7 @@ export default function TransactionStatus({
               transactionStatus === "pending"
                 ? "text-black"
                 : "text-white text-base hover:underline cursor-pointer"
-            } text-center break-all ibm-plex-bold px-6 pt-5 xl:pt-10 md:text-lg xl:text-2xl`}
+            } text-center break-all ibm-plex-bold px-6 pt-5 xl:pt-16 xl:pb-5 md:text-lg xl:text-2xl`}
           >
             {transactionStatus === "pendingApproval" ? (
               nftAmount > 1 ? (
@@ -50,8 +50,7 @@ export default function TransactionStatus({
               ) : (
                 `${nftAmount} NFT  —  ${nftAmount * 0.1} ETH`
               )
-            ) : transactionStatus === "pending" ||
-              transactionStatus === "completed" ? (
+            ) : (
               <a
                 href={`https://rinkeby.etherscan.io/tx/${transactionHash}`}
                 target="_blank"
@@ -74,7 +73,7 @@ export default function TransactionStatus({
                   />
                 </svg>
               </a>
-            ) : null}
+            )}
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ const walletconnect = async function (setWallet) {
     const web3Modal = new Web3Modal({
       network: "rinkeby",
       cacheProvider: false,
-      providerOptions, 
+      providerOptions,
     });
 
     await web3Modal.clearCachedProvider();
@@ -71,8 +71,9 @@ const mint = async function (
         console.log("failed");
         if (error.code === 4001) {
           settransactionStatus(null);
+        } else {
+          settransactionStatus("failed");
         }
-        console.log(receipt);
       });
   } catch (err) {
     console.log(err);
